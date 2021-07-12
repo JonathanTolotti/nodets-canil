@@ -26,7 +26,7 @@ server.use(routes);
 
 // Página 404
 server.use((req, res) => {
-    res.send("Página não encontrada.");
+    res.render('pages/notfound');
 });
 
 // Inicia o servidor
